@@ -5,7 +5,7 @@
 }
 
 html {
-    background-color: #fff;
+    background-color: #f7f1e3;
     color: #555;
     font-family: 'Lato', 'Arial', sans-serif;
     font-size: 20px;
@@ -38,7 +38,52 @@ h1 {
     font-size: 240%;
     font-weight: 100;
     text-transform: uppercase;
-    margin: 0;
+    margin-top: 0;
+    margin-bottom: 20px;
     letter-spacing: 1px;
     word-spacing: 4px;
+}
+
+
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: background-color 0.2s, color 0.2s;
+    
+
+}
+
+.btn:hover,
+.btn:active {
+    background: #d84100;
+
+}
+
+.btn-full:link,
+.btn-full:visited {
+    background-color: #ff793f;
+    border: 1px solid #ff793f;
+    color: #fff;
+    margin-right: 15px
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+    border: 1px solid #ff793f;
+    color: #ff793f;
+}
+
+.btn-full:hover,
+.btn-full:active {
+    border: 1px solid #d84100;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    border: 1px solid #d84100;
+    color: #fff;
 }
